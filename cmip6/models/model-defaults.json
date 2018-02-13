@@ -1,60 +1,60 @@
 {
     "bcc-csm2-hr": {
         "atmos": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:bcc-csm1.1", 
+            "name": "BCC-AGCM3-HR"
         }, 
         "land": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:bcc-csm1.1", 
+            "name": "BCC-AVIM2"
         }, 
         "ocean": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:bcc-csm1.1", 
+            "name": "MOM4"
         }, 
         "seaice": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:bcc-csm1.1", 
+            "name": "SIS"
         }
     }, 
     "bcc-csm2-mr": {
         "atmos": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:bcc-csm1.1", 
+            "name": "BCC-AGCM3-MR"
         }, 
         "land": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:bcc-csm1.1", 
+            "name": "BCC-AVIM2"
         }, 
         "ocean": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:bcc-csm1.1", 
+            "name": "MOM4"
         }, 
         "seaice": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:bcc-csm1.1", 
+            "name": "SIS"
         }
     }, 
-    "bcc-esm1": {
+    "bcc-esm1-lr": {
         "atmos": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:bcc-csm1.1", 
+            "name": "BCC-AGCM3"
         }, 
         "atmoschem": {
             "initializedFrom": "", 
-            "name": ""
+            "name": "BCC-AGCM3-Chem"
         }, 
         "land": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:bcc-csm1.1", 
+            "name": "BCC-AVIM2"
         }, 
         "ocean": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:bcc-csm1.1", 
+            "name": "MOM4"
         }, 
         "seaice": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:bcc-csm1.1", 
+            "name": "SIS"
         }
     }
 }
