@@ -1,0 +1,56 @@
+{
+    "bcc-csm2-hr": {
+        "atmos": {
+            "initializedFrom": "cmip5:bcc-csm1.1"
+        }, 
+        "land": {
+            "initializedFrom": "cmip5:bcc-csm1.1cmip5:bcc-csm1.1"
+        }, 
+        "ocean": {
+            "initializedFrom": "cmip5:bcc-csm1.1"
+        }, 
+        "seaice": {
+            "initializedFrom": "cmip5:bcc-csm1.1"
+        }, 
+        "toplevel": {
+            "initializedFrom": "cmip5:bcc-csm1.1"
+        }
+    }, 
+    "bcc-csm2-mr": {
+        "atmos": {
+            "initializedFrom": "cmip5:bcc-csm1.1"
+        }, 
+        "land": {
+            "initializedFrom": "cmip5:bcc-csm1.1"
+        }, 
+        "ocean": {
+            "initializedFrom": "cmip5:bcc-csm1.1"
+        }, 
+        "seaice": {
+            "initializedFrom": "cmip5:bcc-csm1.1"
+        }, 
+        "toplevel": {
+            "initializedFrom": "cmip5:bcc-csm1.1"
+        }
+    }, 
+    "bcc-esm1": {
+        "atmos": {
+            "initializedFrom": "cmip5:bcc-csm1.1"
+        }, 
+        "atmoschem": {
+            "initializedFrom": ""
+        }, 
+        "land": {
+            "initializedFrom": "cmip5:bcc-csm1.1"
+        }, 
+        "ocean": {
+            "initializedFrom": "cmip5:bcc-csm1.1"
+        }, 
+        "seaice": {
+            "initializedFrom": "cmip5:bcc-csm1.1"
+        }, 
+        "toplevel": {
+            "initializedFrom": "cmip5:bcc-csm1.1"
+        }
+    }
+}

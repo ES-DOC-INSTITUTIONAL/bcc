@@ -1,0 +1,16 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "bcc", 
+    "seedingSource": "cmip5:bcc-csm1.1", 
+    "sourceID": "bcc-csm2-hr", 
+    "topic": "toplevel", 
+    "authors": [], 
+    "contributors": [], 
+    "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "Beijing Climate Center Climate System Model version 1.1"
+            ]
+        }
+    }
+}
