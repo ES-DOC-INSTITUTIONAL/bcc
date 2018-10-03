@@ -11,8 +11,8 @@
         }, 
         "ocean": {
             "publish": "off"
-        },
-	"seaice": {
+        }, 
+        "seaice": {
             "publish": "off"
         }
     }, 

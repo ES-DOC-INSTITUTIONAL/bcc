@@ -1,5 +1,8 @@
 {
     "bcc-csm2-hr": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "atmos": {
             "initializedFrom": "cmip5:bcc-csm1.1"
         }, 
@@ -11,12 +14,12 @@
         }, 
         "seaice": {
             "initializedFrom": "cmip5:bcc-csm1.1"
-        }, 
-        "toplevel": {
-            "initializedFrom": "cmip5:bcc-csm1.1"
         }
     }, 
     "bcc-csm2-mr": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "atmos": {
             "initializedFrom": "cmip5:bcc-csm1.1"
         }, 
@@ -28,12 +31,12 @@
         }, 
         "seaice": {
             "initializedFrom": "cmip5:bcc-csm1.1"
-        }, 
-        "toplevel": {
-            "initializedFrom": "cmip5:bcc-csm1.1"
         }
     }, 
     "bcc-esm1": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "atmos": {
             "initializedFrom": "cmip5:bcc-csm1.1"
         }, 
@@ -47,9 +50,6 @@
             "initializedFrom": "cmip5:bcc-csm1.1"
         }, 
         "seaice": {
-            "initializedFrom": "cmip5:bcc-csm1.1"
-        }, 
-        "toplevel": {
             "initializedFrom": "cmip5:bcc-csm1.1"
         }
     }
