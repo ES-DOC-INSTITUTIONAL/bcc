@@ -7,7 +7,7 @@
             "initializedFrom": "cmip5:bcc-csm1.1"
         }, 
         "land": {
-            "initializedFrom": "cmip5:bcc-csm1.1cmip5:bcc-csm1.1"
+            "initializedFrom": "cmip5:bcc-csm1.1"
         }, 
         "ocean": {
             "initializedFrom": "cmip5:bcc-csm1.1"
