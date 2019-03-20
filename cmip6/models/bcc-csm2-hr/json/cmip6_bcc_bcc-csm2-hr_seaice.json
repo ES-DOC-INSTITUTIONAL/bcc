@@ -1,35 +1,10 @@
 {
     "mipEra": "cmip6", 
     "institute": "bcc", 
-    "seedingSource": "cmip5:bcc-csm1.1", 
+    "seedingSource": "Spreadsheet", 
     "sourceID": "bcc-csm2-hr", 
     "topic": "seaice", 
     "content": {
-        "cmip6.seaice.dynamics.ice_strength_formulation": {
-            "values": [
-                "Other: hibler,1979"
-            ]
-        }, 
-        "cmip6.seaice.dynamics.rheology": {
-            "values": [
-                "Other: evp"
-            ]
-        }, 
-        "cmip6.seaice.dynamics.transport_in_thickness_space": {
-            "values": [
-                "Other: linear remapping"
-            ]
-        }, 
-        "cmip6.seaice.grid.discretisation.horizontal.grid": {
-            "values": [
-                "Ocean grid"
-            ]
-        }, 
-        "cmip6.seaice.grid.discretisation.vertical.layering": {
-            "values": [
-                "Other: 3"
-            ]
-        }, 
         "cmip6.seaice.key_properties.name": {
             "values": [
                 "sea ice simulator developed by GFDL"
@@ -40,19 +15,34 @@
                 "Other: ice velocity, upper/lower ice layer temperture, sea ice thickness, concentration"
             ]
         }, 
-        "cmip6.seaice.radiative_processes.surface_albedo": {
+        "cmip6.seaice.grid.discretisation.horizontal.grid": {
             "values": [
-                "Other: modification of briegleb et al.(2001)"
+                "Ocean grid: Sea ice is horizontally discretised on the ocean grid."
             ]
         }, 
-        "cmip6.seaice.thermodynamics.energy.basal_heat_flux": {
+        "cmip6.seaice.grid.discretisation.vertical.layering": {
             "values": [
-                "Other: parametrized (calculated in seaice)"
+                "Other: 3"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.transport_in_thickness_space": {
+            "values": [
+                "Other: linear remapping"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.ice_strength_formulation": {
+            "values": [
+                "Other: hibler,1979"
             ]
         }, 
         "cmip6.seaice.thermodynamics.energy.heat_diffusion": {
             "values": [
                 "Other: multi-layer on a regular vertical grid"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.basal_heat_flux": {
+            "values": [
+                "Other: parametrized (calculated in seaice)"
             ]
         }, 
         "cmip6.seaice.thermodynamics.mass.new_ice_formation": {
@@ -65,14 +55,14 @@
                 "Other: no"
             ]
         }, 
-        "cmip6.seaice.thermodynamics.snow_processes.heat_diffusion": {
-            "values": [
-                "Other: one layer"
-            ]
-        }, 
         "cmip6.seaice.thermodynamics.snow_processes.redistribution": {
             "values": [
                 "Snow-ice"
+            ]
+        }, 
+        "cmip6.seaice.radiative_processes.surface_albedo": {
+            "values": [
+                "Other: modification of briegleb et al.(2001)"
             ]
         }
     }

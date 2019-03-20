@@ -1,83 +1,18 @@
 {
     "mipEra": "cmip6", 
     "institute": "bcc", 
-    "seedingSource": "cmip5:bcc-csm1.1", 
+    "seedingSource": "Spreadsheet", 
     "sourceID": "bcc-csm2-hr", 
     "topic": "ocean", 
     "content": {
-        "cmip6.ocean.advection.lateral_tracers.flux_limiter": {
+        "cmip6.ocean.key_properties.name": {
             "values": [
-                true
+                "Oceanic general circulation model MOM4-L40"
             ]
         }, 
-        "cmip6.ocean.advection.lateral_tracers.name": {
+        "cmip6.ocean.key_properties.overview": {
             "values": [
-                "Sweby"
-            ]
-        }, 
-        "cmip6.ocean.advection.momentum.scheme_name": {
-            "values": [
-                "Swedy\u2019s tracer-based third order advection scheme"
-            ]
-        }, 
-        "cmip6.ocean.advection.momentum.type": {
-            "values": [
-                "Flux form"
-            ]
-        }, 
-        "cmip6.ocean.advection.vertical_tracers.flux_limiter": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocean.advection.vertical_tracers.name": {
-            "values": [
-                "Sweby"
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.momentum_flux_correction": {
-            "values": [
-                "No"
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.ocean_colour": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.scheme": {
-            "values": [
-                "3 extinction depth"
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.tracers_flux_correction": {
-            "values": [
-                "Salinity"
-            ]
-        }, 
-        "cmip6.ocean.grid.discretisation.horizontal.scheme": {
-            "values": [
-                "Other: finite differences"
-            ]
-        }, 
-        "cmip6.ocean.grid.discretisation.horizontal.type": {
-            "values": [
-                "Other: pole rotation"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.basic_approximations": {
-            "values": [
-                "Boussinesq"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.bathymetry.reference_dates": {
-            "values": [
-                "Present day"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.bathymetry.type": {
-            "values": [
-                true
+                "1 longitude x 1/3 latitude between 10S-10N;_x000D_\n1 longitude x 1 latitude  from 30S and 30N to pole, respectively"
             ]
         }, 
         "cmip6.ocean.key_properties.model_family": {
@@ -85,30 +20,15 @@
                 "OGCM"
             ]
         }, 
-        "cmip6.ocean.key_properties.name": {
+        "cmip6.ocean.key_properties.basic_approximations": {
             "values": [
-                "Oceanic general circulation model MOM4-L40"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.nonoceanic_waters.isolated_seas": {
-            "values": [
-                "No"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.nonoceanic_waters.river_mouth": {
-            "values": [
-                "Yes"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.overview": {
-            "values": [
-                "1 longitude x 1/3 latitude between 10S-10N;\r\n1 longitude x 1 latitude  from 30S and 30N to pole, respectively"
+                "Boussinesq"
             ]
         }, 
         "cmip6.ocean.key_properties.prognostic_variables": {
             "values": [
                 "Potential temperature", 
-                "SSH", 
+                "SSH: Sea Surface Height", 
                 "Salinity", 
                 "U-velocity", 
                 "V-velocity"
@@ -124,27 +44,62 @@
                 "Other: fixed"
             ]
         }, 
+        "cmip6.ocean.key_properties.bathymetry.reference_dates": {
+            "values": [
+                "Present day"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.bathymetry.type": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocean.key_properties.nonoceanic_waters.isolated_seas": {
+            "values": [
+                "No"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.nonoceanic_waters.river_mouth": {
+            "values": [
+                "Yes"
+            ]
+        }, 
+        "cmip6.ocean.grid.discretisation.horizontal.type": {
+            "values": [
+                "Other: pole rotation"
+            ]
+        }, 
         "cmip6.ocean.timestepping_framework.tracers.scheme": {
             "values": [
                 "Other: leap-frog + periodic euler backward solver"
             ]
         }, 
-        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.type_of_bbl": {
+        "cmip6.ocean.advection.momentum.type": {
             "values": [
-                "Other: advective"
+                "Flux form"
             ]
         }, 
-        "cmip6.ocean.uplow_boundaries.free_surface.scheme": {
+        "cmip6.ocean.advection.momentum.scheme_name": {
             "values": [
-                "Other: linear split-explicit"
+                "Swedy\u2019s tracer-based third order advection scheme"
             ]
         }, 
-        "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.background": {
+        "cmip6.ocean.advection.lateral_tracers.flux_limiter": {
             "values": [
-                "Background vertical viscosity:1e-4m2s-1"
+                true
             ]
         }, 
-        "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.type": {
+        "cmip6.ocean.advection.lateral_tracers.name": {
+            "values": [
+                "Sweby"
+            ]
+        }, 
+        "cmip6.ocean.advection.vertical_tracers.name": {
+            "values": [
+                "Sweby"
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers.type": {
             "values": [
                 "Turbulent closure - KPP"
             ]
@@ -154,9 +109,14 @@
                 "Background vertical viscosity:1e-4m2s-1"
             ]
         }, 
-        "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers.type": {
+        "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.type": {
             "values": [
                 "Turbulent closure - KPP"
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.background": {
+            "values": [
+                "Background vertical viscosity:1e-4m2s-1"
             ]
         }, 
         "cmip6.ocean.vertical_physics.interior_mixing.details.convection_type": {
@@ -169,12 +129,7 @@
                 "Barotropic tides"
             ]
         }, 
-        "cmip6.ocean.vertical_physics.interior_mixing.momentum.background": {
-            "values": [
-                "Background vertical viscosity:1e-4  m^2/s"
-            ]
-        }, 
-        "cmip6.ocean.vertical_physics.interior_mixing.momentum.type": {
+        "cmip6.ocean.vertical_physics.interior_mixing.tracers.type": {
             "values": [
                 "Other: richardson number dependent (pp)"
             ]
@@ -184,9 +139,39 @@
                 "Background vertical viscosity:1e-4  m^2/s"
             ]
         }, 
-        "cmip6.ocean.vertical_physics.interior_mixing.tracers.type": {
+        "cmip6.ocean.vertical_physics.interior_mixing.momentum.type": {
             "values": [
                 "Other: richardson number dependent (pp)"
+            ]
+        }, 
+        "cmip6.ocean.uplow_boundaries.free_surface.scheme": {
+            "values": [
+                "Other: linear split-explicit"
+            ]
+        }, 
+        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.type_of_bbl": {
+            "values": [
+                "Other: advective"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.momentum_flux_correction": {
+            "values": [
+                "No"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.tracers_flux_correction": {
+            "values": [
+                "Salinity"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.scheme": {
+            "values": [
+                "3 extinction depth"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.ocean_colour": {
+            "values": [
+                true
             ]
         }
     }
