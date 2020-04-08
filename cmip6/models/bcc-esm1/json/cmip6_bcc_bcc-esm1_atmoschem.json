@@ -1,0 +1,8 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "bcc", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "bcc-esm1", 
+    "topic": "atmoschem", 
+    "content": {}
+}
