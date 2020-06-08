@@ -5,16 +5,6 @@
     "sourceID": "bcc-csm2-hr", 
     "topic": "seaice", 
     "content": {
-        "cmip6.seaice.key_properties.name": {
-            "values": [
-                "sea ice simulator developed by GFDL"
-            ]
-        }, 
-        "cmip6.seaice.key_properties.variables.prognostic": {
-            "values": [
-                "Other: ice velocity, upper/lower ice layer temperture, sea ice thickness, concentration"
-            ]
-        }, 
         "cmip6.seaice.grid.discretisation.horizontal.grid": {
             "values": [
                 "Ocean grid: Sea ice is horizontally discretised on the ocean grid."
@@ -23,46 +13,6 @@
         "cmip6.seaice.grid.discretisation.vertical.layering": {
             "values": [
                 "Other: 3"
-            ]
-        }, 
-        "cmip6.seaice.dynamics.transport_in_thickness_space": {
-            "values": [
-                "Other: linear remapping"
-            ]
-        }, 
-        "cmip6.seaice.dynamics.ice_strength_formulation": {
-            "values": [
-                "Other: hibler,1979"
-            ]
-        }, 
-        "cmip6.seaice.thermodynamics.energy.heat_diffusion": {
-            "values": [
-                "Other: multi-layer on a regular vertical grid"
-            ]
-        }, 
-        "cmip6.seaice.thermodynamics.energy.basal_heat_flux": {
-            "values": [
-                "Other: parametrized (calculated in seaice)"
-            ]
-        }, 
-        "cmip6.seaice.thermodynamics.mass.new_ice_formation": {
-            "values": [
-                "Frazil, congelation, snow ice based on the thermodynamic condition"
-            ]
-        }, 
-        "cmip6.seaice.thermodynamics.melt_ponds.formulation": {
-            "values": [
-                "Other: no"
-            ]
-        }, 
-        "cmip6.seaice.thermodynamics.snow_processes.redistribution": {
-            "values": [
-                "Snow-ice"
-            ]
-        }, 
-        "cmip6.seaice.radiative_processes.surface_albedo": {
-            "values": [
-                "Other: modification of briegleb et al.(2001)"
             ]
         }
     }
